@@ -120,12 +120,19 @@ menu li a:hover{
     color: rgb(185, 110, 110);
 }
 
+.about-outer{
+    height: 900px;
+    background: url(./똥굴.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
 .about{
     width: 1200px;
     height: 800px;
 
     margin: 0 auto;
-    margin-top: 200px;
+    
+ 
 }
 
 .about h2{
@@ -135,7 +142,9 @@ menu li a:hover{
 
 .about h1{
     font-size: 50px;
+    color: white;
 }
+
 
 .about .contents{
     width: 100%;
@@ -162,11 +171,13 @@ menu li a:hover{
 
 .about .right h3{
     font-size: 40px;
+    color: white;
 }
 
 .about .right li{
     font-size: 22px;
     margin-top: 10px;
+    color: white;
 }
 
 .fa-brands{
@@ -247,7 +258,7 @@ menu li a:hover{
 .skills .contents li:hover{
     background-color: rgb(80, 28, 15);
     color: white;
-    transform: rotate(2081deg) scale(1.5);
+    transform: rotate(2081deg);
 
 }
 
@@ -267,11 +278,17 @@ menu li a:hover{
     height: 1200px;
 }
 
+.contact-outer{
+    height: 900px;
+    background: url(./엉시.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
 .contact{
     width: 1200px;
     height: 800px;
     margin: 0 auto;
-    margin-top: 100px;
 }
 
 .contact h2{
@@ -336,4 +353,47 @@ menu li a:hover{
     background-color: brown;
     color: white;
     font-weight: bold;
+}
+
+
+
+
+
+
+body {
+  
+}
+
+.main{
+  width: 90vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.animation span{
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+  
+.animation .two_text {
+  display: inline-block;
+  transform-origin: center;
+  padding: 0 0.5rem;
+  color: #631e1e;
+  animation: animate 0.2s infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(3);
+  }
+  50% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(3);
+  }
+
 }
